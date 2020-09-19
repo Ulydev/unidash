@@ -63,4 +63,4 @@ const storeModel: StoreModel = {
     modal: modalModel
 }
 
-export default persist(storeModel, { blacklist: ["modal"] })
+export default persist(storeModel, { blacklist: ["modal"], storage: "localStorage" })
